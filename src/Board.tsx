@@ -5,7 +5,7 @@ import './Board.css'
 class Board extends React.Component {
     renderSquare(i: number) {
         return (
-            <Square />
+            <Square value={i}/>
         )
     }
 
